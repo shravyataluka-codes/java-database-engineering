@@ -1,0 +1,8 @@
+CREATE 	DATABASE IF NOT EXISTS company_db;
+
+USE company_db;
+
+CREATE TABLE departments (
+id INT PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(50) NOT NULL
+);
